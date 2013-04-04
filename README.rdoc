@@ -1,0 +1,27 @@
+= biweek_finder
+
+* {Homepage}[https://rubygems.org/gems/biweek_finder]
+* {Documentation}[http://rubydoc.info/gems/biweek_finder/frames]
+* {Email}[mailto:totallymike at gmail.com]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'biweek_finder'
+
+== Requirements
+
+== Install
+
+  $ gem install biweek_finder
+
+== Copyright
+
+Copyright (c) 2013 Michael Westbom
+
+See LICENSE.txt for details.
