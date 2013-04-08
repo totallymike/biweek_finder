@@ -5,8 +5,8 @@ require File.expand_path('../lib/biweek_finder/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "biweek_finder"
   gem.version       = BiweekFinder::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = "Finds properly formatted biweek folders."
+  gem.description   = "Used for an internal project but possibly useful elsewhere?"
   gem.license       = "MIT"
   gem.authors       = ["Michael Westbom"]
   gem.email         = "totallymike@gmail.com"
