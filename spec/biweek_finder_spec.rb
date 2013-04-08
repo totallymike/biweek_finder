@@ -39,7 +39,7 @@ describe BiweekFinder do
       Dir.rmdir $temp_dir
     end
 
-    it "should return directories named after biweeks" do
+    it "should return only directories named after biweeks" do
       expect(BiweekFinder.from_path $temp_dir).
         to eq %w{20081112 20130910 20131112}
     end
