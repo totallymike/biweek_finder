@@ -1,4 +1,5 @@
 Gemfile.lock
+coverage
 html/
 pkg/
 vendor/cache/*.gem
