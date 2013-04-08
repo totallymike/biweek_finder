@@ -6,15 +6,30 @@
 
 == Description
 
-TODO: Description
+Pass the gem a directory containing subdirectories named after biweeks, and return a list of those directories.  
+  
+It's not terribly complex.
 
 == Features
 
+Reads directories, ignores files.  
+
 == Examples
 
-  require 'biweek_finder'
+    require 'biweek_finder'
+
+    # Assume /path/to/dir contains these guys:
+    # 20120102/
+    # 20120304/
+    # another_dir/
+    # 20120506 # < not a directory
+
+    BiweekFinder.from_path '/path/to/dir'
+    #=> ['20120102', '20120304']
 
 == Requirements
+
+Just rspec and simplecov for development purposes.
 
 == Install
 
