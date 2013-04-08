@@ -1,4 +1,5 @@
 require 'rspec'
-require 'biweek_finder/version'
+require 'tmpdir'
+require './lib/biweek_finder'
 
 include BiweekFinder
